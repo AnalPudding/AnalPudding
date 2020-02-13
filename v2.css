@@ -1,0 +1,222 @@
+/**
+ * @name AnalPudding
+ * @author AnalPudding#4578
+ * @version 2.0
+ * @description AnalPudding | V.2.0
+*/
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css");
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+@import url("https://codedotspectra.github.io/themes/neutron/importCSS/xcore.css");
+@import url('https://codedotspectra.github.io/themes/mini-themes/compactMemberList.css');
+
+
+
+:root {
+
+
+    --BG-image: url('https://i.imgur.com/e760Jo9.jpg');
+    --BG-image-blur: 0px;
+    --BG-serverlist-brightness: 0.8;
+    --BG-left-brightness: 0.8;
+    --BG-right-brightness: 0.6;
+    --BG-popout-brightness: 0.7;
+    --BG-gradient-one: 66,170,255;
+    --BG-gradient-two: 255,0,225;
+    --BG-gradient-direction: -45deg;
+    --BG-window-padding: 0px;
+    --BG-window-roundness: 0px;
+    --BG-left-right-split: 0;
+    --PrimaryColor01: #FF00DC;
+    --PrimaryColorRGBA: rgba(255,0,225,0.15);
+    --PrimaryColor02: #FF00DC;
+    --links: #FF00DC;
+    --ChatTextColor: #ffffff;
+    --RoleTitleColor: #FF00DC;
+    --UserPlayingTextColor: #ffffff;
+    --ChannelsDefaultTextColor: #DB00BE;
+    --ChannelsSelectedTextColor: #FF00DC;
+    --ChannelsDarkTextColor: #DB00BE;
+    --NTBackgroundColor01: #FF00DC;
+    --NTBackgroundColor02: #303030;
+    --NTBackgroundColor03: #9E0089;
+    --NTBackgroundColor04: #FF00DC;
+	--NTBackgroundColor04: #FF00DC;--versionText:"AnalPudding v2.0";
+	--version:"v2.0"
+}
+
+.members-1998pB .membersGroup-v9BXpm, .private-channels header {
+    text-align: center;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.private-channels header::after {padding-bottom: 10px;}
+
+.channels-Ie2l6A .wrapperDefault-10Jfvz, .channels-Ie2l6A .wrapperHovered-28fu1D {
+    padding-top: 28px;
+    padding-right: 8px;
+    padding-left: 18px;
+    padding: 0 0 8px 0;
+    height: auto;
+    margin: 28px 8px 4px 18px;
+    border-bottom: 2px solid gold;
+}
+.channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH {text-align: center;}
+
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+    filter: blur(5px);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+    filter: none;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+    
+}
+
+.da-reaction .da-reactionInner > img {
+    position: relative;
+    transition: all 0.08s linear;
+}
+.da-reaction .da-reactionInner:hover > img {
+    transform: scale(3) translate(calc(-100%/3), 10%);
+    z-index: 2001;
+}
+
+.titleBar-AC4pGV svg[name="DiscordWordmark"] {
+  display: none;
+}
+
+.wordmarkWindows-1v0lYD {
+ content: url(https://i.imgur.com/15Ofe9d.png);
+}
+
+.homeIcon-tEMBK1, .da-homeIcon	 {
+ display: none;
+}
+
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div:last-child:after { content: "AnalPudding | v2.0  "; position: absolute; left: 0; top: 18px; left: 10px; background-color: #FF00DC; padding: 3px; border-radius: 5px; text-shadow: 1px 1px #010101; font-weight: bold;}
+
+.numberBadge-2s8kKX{animation:crazyPing .1s infinite ;}
+@keyframes crazyPing{
+    25%{transform: translateX(4px) translateY(1px) rotate(-15deg);}
+    50%{transform: translateX(-9px) translateY(-2px) rotate(40deg);}
+    75%{transform: translateX(1px) translateY(-4px) rotate(-23deg);}
+    100% {transform: translateX(-2px) translateY(2px) rotate(8deg);}
+}
+
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {background-color: #FF00DC; !important;}
+.username-2hHyRL {color: #FF00DC;} .h4-AQvcAz {color: #FF00DC;} .match-38WbBN {color: #FF00DC;} .mainHeader-1i17pL {color:#0094FF;} .header-37a0R7 {color:#0094FF;} .subtext-1RtU34 {color: #FF00DC;} .headerText-1-AnT0 {color: #FF00DC;} .label-JWQiNe {color: #FF00DC;} .item-2hkk8m {background-color: #FF00DC;} .usernameFont-aFalyR {color: white;} .h4-AQvcAz {color: #FF00DC;}
+
+.body-2iXqIL {
+	background-color: #FF00DC;
+	border-radius: 10px;
+}
+
+.buttonHint-2OxJB8 {
+	background-color: #9E0089;
+	border-radius: 10px;
+	padding: 10px;
+	text-shadow: 1px 1px black;
+}
+
+.footer-2aTx0s{
+	display: none;
+}
+
+.button-1VQp89 {
+	background-color: #9E0089;
+	border-radius: 10px;
+	text-shadow: 1px 1px black;
+}
+
+.dividerContent-2L12VI {
+	border-radius: 30px;
+	text-shadow: 1px 1px black;
+	padding: 2px;
+}
+
+.role-2irmRk {
+  text-transform: uppercase;
+  border-radius: 5;
+  position: relative;
+  padding: 7px;
+}
+
+.role-2irmRk>.roleCircle-3xAZ1j::before {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  border-radius: 6;
+}
+
+.mentioned-xhSam7, .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover {
+    background: linear-gradient(90deg, rgba(255, 0, 255, 0.4) 0%, rgba(0, 0, 0, 0) 70%);
+	border-radius: 5px;
+}
+
+.messages-3amgkR .message-2qnXI6.mentioned-xhSam7::before {
+    background-color:transparent !important;
+}
+
+.jumpToPresentBar-9P20AM {
+    background: linear-gradient(90deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5)) !important;
+    animation: bganim 20s ease infinite !important;
+    background-size: 2100% 2100% !important;
+    
+}
+
+.tabBarItem-1b8RUP {
+	background-color: #35002E;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.username-1A8OIy, .da-username {
+	text-shadow: 2px 2px #010101;
+	font-weight: bold;
+}
+
+.scroller-2FKFPG, .da-scroller, .systemPad-3UxEGl, .da-systemPad, .members-1998pB, .da-members {
+	background-color: rgba(255, 255, 255);
+}
+
+
+
+/* Easter Egg :)
+
+@keyframes spin
+{
+    100% {transform: rotate(360deg);}
+}
+
+.da-avatar {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    borderadius: 20px;
+}
+*{
+    font-family: "Comic Sans MS" !important;
+}
+
+.username-_4ZSMR {
+    background: linear-gradient(to right, #0ff, #00f, #f0f, #f00, #ff0, #0f0, #0ff) left / 8ch 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: bad-rainbow-effect 1s infinite linear;
+}
+@keyframes bad-rainbow-effect {
+    to {
+        background-position: -8ch;
+    }
+}
+
+*/
